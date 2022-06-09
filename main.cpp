@@ -7,7 +7,8 @@
 
 int main() {
     //Test functionality
-    int errors = ArrayTestsNS::testInsert();
+    int errors;
+     errors = ArrayTestsNS::testInsert();
     errors += ArrayTestsNS::testFind();
     if (errors > 0) {
         std::cerr << "Array Tests failed with " << errors << " errors" << std::endl;
@@ -28,7 +29,7 @@ int main() {
         return errors;
     }
     std::cout << "Queue Tests passed successfully. " << std::endl;
-
+    
     errors += ListTestsNS::test();
     if (errors > 0) {
         std::cerr << "Lists Tests failed with " << errors << " errors" << std::endl;

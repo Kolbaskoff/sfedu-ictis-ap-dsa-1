@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.17.3)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g" CACHE STRING "Default CXX options" FORCE)
 project(sfedu_ictis_ap_dsa)
 
 set(CMAKE_CXX_STANDARD 14)
