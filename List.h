@@ -7,7 +7,7 @@
 #ifndef SFEDU_ICTIS_AP_DSA_LIST_H
 #define SFEDU_ICTIS_AP_DSA_LIST_H
 
-template<typename TYPE>
+template<typename TYPE> 
 struct DoublyListNode {
     TYPE key;
     DoublyListNode<TYPE> *next;
